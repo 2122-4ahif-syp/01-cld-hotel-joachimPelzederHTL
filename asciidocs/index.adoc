@@ -1,5 +1,5 @@
 = My Project
-firstname lastname
+Pelzeder Joachim
 1.0.0, yyyy-mm-dd: Some notes
 ifndef::imagesdir[:imagesdir: images]
 //:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
@@ -14,8 +14,11 @@ ifdef::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 
-== Header 1
+== CLD-Kino
 
+[plantuml]
+----
+include::plantuml/kino.puml[]
+----
 
-=== Header 2
 
